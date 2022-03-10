@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .main-footer .container .cards {
     margin-left: 8.4%;
+    margin-top: 10%;
 }
 
 .main-footer .container .cards .card {
@@ -199,6 +200,7 @@
         margin: auto !important;
         width: 80% !important;
         font-size: 25px !important;
+        overflow: auto;
     }
     .main-footer .container .ekaterina-container .ekaterina-info {
         margin: auto !important;
@@ -264,6 +266,7 @@
     }
     .ekaterina-info .ekaterina-info-header {
         font-size: 12px !important;
+        margin-top: 20px;
     }
     .ekaterina-name {
         font-size: 40px !important;
