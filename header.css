@@ -240,8 +240,10 @@ body{
 }
 @media (max-width: 991px) and (min-width: 320px){
     body{
-        padding-left: 8.4%;
         padding-top: 21px;
+    }
+    .header{
+        padding-left: 8.4%;
     }
     .header-img{
         margin-bottom: 7.36%;
