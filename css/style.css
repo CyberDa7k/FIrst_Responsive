@@ -16,7 +16,7 @@
     border-radius: 30px;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin-top: 2%;
 }
 
@@ -30,18 +30,28 @@
 
 .main-footer .container .cards .card .card-footer {
     padding-left: 4%;
+    margin-top: 15px;
+    font-family: 'Roboto';
 }
 
 .main-footer .container .cards .card .card-footer p:first-child {
     line-height: 30px;
     height: 37px;
     margin: 0;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: bold;
 }
 
-.main-footer .container .cards .card .card-footer p:last-child {
+.main-footer .container .cards .card .card-footer p:nth-child(2) {
     margin-top: 20px;
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.main-footer .container .cards .card .card-footer p:last-child {
+    margin-top: 3px;
     width: 90%;
     font-size: 25px;
     font-weight: 400;
@@ -130,12 +140,18 @@
         margin-top: 10px;
         margin-bottom: 30px;
         height: 18px;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 18px;
     }
-    .main-footer .container .cards .card .card-footer p:last-child {
+    .main-footer .container .cards .card .card-footer p:nth-child(2) {
         width: 70%;
         font-size: 20px;
+    }
+    .main-footer .container .cards .card .card-footer p:last-child {
+        margin-top: 3px;
+        width: 90%;
+        font-size: 20px;
+        font-weight: 400;
     }
     .main-footer .ekaterina-container .ekaterina-header {
         font-size: 32px;
@@ -157,7 +173,7 @@
     }
 }
 
-@media (max-width: 991px) and (min-width: 320px) {
+@media (max-width: 991px) {
     .main-footer .container .cards {
         margin-left: 6%;
         display: -webkit-box;
@@ -179,6 +195,7 @@
     }
     .main-footer .container .cards .card .card-footer {
         padding-left: 4%;
+        margin-top: 10px;
     }
     .main-footer .container .cards .card .card-footer p:first-child {
         margin-top: 8px;
@@ -187,10 +204,15 @@
         font-size: 14px;
         line-height: 20px;
     }
-    .main-footer .container .cards .card .card-footer p:last-child {
+    .main-footer .container .cards .card .card-footer p:nth-child(2) {
         width: 70%;
         font-size: 12px;
         margin-bottom: 0;
+    }
+    .main-footer .container .cards .card .card-footer p:last-child {
+        margin-top: 3px;
+        width: 90%;
+        font-size: 12px;
     }
     .main-footer .container .ekaterina-container {
         margin-left: 0;
@@ -254,10 +276,16 @@
         height: 18px;
         font-size: 13px;
     }
-    .main-footer .container .cards .card .card-footer p:last-child {
+    .main-footer .container .cards .card .card-footer p:nth-child(2) {
         width: 70%;
         font-size: 11px;
         margin-bottom: 0;
+    }
+    .main-footer .container .cards .card .card-footer p:last-child {
+        margin-top: 3px;
+        width: 90%;
+        font-size: 11px;
+        font-weight: 400;
     }
 }
 
